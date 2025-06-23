@@ -11,7 +11,7 @@ def main():
 
     print("Simulating 6 time ticks (aging applies after 5)..." )
     for t in range(6):
-        print("tick{t+1}---")
+        print(f"tick{t+1}---")
         a.tick()
         a.show_status()
 

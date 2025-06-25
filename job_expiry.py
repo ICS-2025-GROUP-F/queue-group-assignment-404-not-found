@@ -1,6 +1,6 @@
 import threading
 
-class PrintQueueManager:
+class PrintQueueManageR:
     def __init__(self,queue):
         self.queue = queue
         self.current_time = 0
@@ -55,7 +55,7 @@ class PrintQueueManager:
 
 if __name__ == "__main__":
     shared_queue = []
-    pq = PrintQueueManager(shared_queue)
+    pq = PrintQueueManageR(shared_queue)
 
     pq.init_concurrency()
 

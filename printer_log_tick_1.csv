@@ -1,0 +1,6 @@
+Job ID,User Role,Document Type,Priority,Wait Time,Expires In
+J102,Lecturer,Exam Paper,3,1,5
+J103,Admin,Transcript,2,1,4
+J101,Student,Assignment Report,1,1,4
+J105,Lecturer,Lecture Notes,1,1,6
+J104,Student,Course Registration Form,0,1,3
